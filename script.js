@@ -32,5 +32,5 @@ const images = [
           });
       }
 
-downloadImages();
-      
+const button = document.getElementById('download-images-button');
+button.addEventListener('click', downloadImages);
